@@ -1,7 +1,10 @@
 import {useEffect, useState} from "react"
 import useSound from 'use-sound'
 
-
+/*
+made use of package and example found here: https://reactjsexample.com/a-react-hook-for-playing-sound-effects/
+made use of interval set up found here: https://tousu.in/qa/?qa=40797/
+*/
 const useAudio = (url, isTapTempo, tempo=null, 
     // setDisplayBPM
     ) => {
